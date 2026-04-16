@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/drishitapaul2023-alt/agile-labfat.git'
+                git branch: 'main', url: 'https://github.com/drishitapaul2023-alt/agile-labfat.git'
             }
         }
 
